@@ -1,0 +1,183 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+.body {
+  margin: 0;
+  color: rgba(0, 0, 0, .87);
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.navbar {
+  padding: 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-navbar img{
+  width: 50px;
+  margin-right: 10px;
+}
+.left-navbar div {
+  font-family: "SoDo Sans SemiBold";
+  font-weight: 600;
+}
+.left-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 147px;
+  gap: 10px;
+}
+.left-navbar div:hover {
+  color: #00754a
+}
+.find-a-store {
+  margin-right: 10px;
+}
+.find-a-store:hover {
+  color: #00754a
+}
+.right-navbar img{
+  width: 50px;
+  margin-right: -20px;
+}
+.right-navbar div {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.right-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 221px;
+  gap: 10px;
+}
+.right-navbar button {
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 5px 20px 5px 20px;
+}
+.sign-in {
+  background-color: white;
+}
+.sign-in:hover {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.join-now {
+  background-color: black;
+  color: white;
+}
+.join-now:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.product1 {
+  background-color: #e0e0e0;
+  width: 60%;
+  height: 200px;
+  display: flex;
+}
+.product1-left {
+  flex: 1.213;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product1-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product1-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #06ce8d;
+  padding: 30px;
+  text-align: center;
+  color: #1e3932;
+  font-family: "SoDo Sans SemiBold"
+}
+.product1-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.product1-description {
+  font-size: 13.5px;
+  font-weight: 400;
+}
+.product1-button {
+  display: inline-block;
+  background-color: #06ce8d;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.product2 {
+  background-color: #e0e0e0;
+  width: 60%;
+  height: 200px;
+  display: flex;
+}
+.product2-right {
+  flex: 1.213;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product2-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product2-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d50032;
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "SoDo Sans SemiBold"
+}
+.product2-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.product2-description {
+  font-size: 13.5px;
+  font-weight: 400;
+}
+.product2-button {
+  display: inline-block;
+  background-color: #d50032;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  font-size: 11px;
+  margin-top: 5px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 36px;
+}
