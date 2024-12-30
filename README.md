@@ -1,0 +1,1 @@
+Creates a model of the first page of the starbucks.com website. IT's made through HTML code and CSS styling.
